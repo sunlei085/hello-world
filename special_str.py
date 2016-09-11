@@ -13,3 +13,7 @@ class Student(object):
 
 print Student('sunzhilei')
 
+import json
+
+d = dict(name='sun', age=31)
+print type(json.dumps(d))
